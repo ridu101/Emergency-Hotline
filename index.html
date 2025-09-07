@@ -28,12 +28,12 @@
       <div class="flex gap-4">
         <div
           class=" w-[90px] h-[42px] justify-between flex items-center bg-[#41ff6b1a] p-5 rounded-3xl gap-2  transform transition duration-300 hover:scale-105 hover:shadow-lg hover:shadow-green-200">
-          <p class="heart-count">0</p>
+          <p id="heart-count">0</p>
 
           <img class="max-w-[30px] max-h-[30px]" src="./assets/heart.png" alt="">
         </div>
         <div
-          class="w-[90px] h-[42px] justify-between flex items-center bg-[#41ff6b1a] p-5 rounded-3xl gap-2  transform transition duration-300 hover:scale-105 hover:shadow-lg hover:shadow-green-500">
+          class="w-[90px] h-[42px] justify-between flex items-center bg-[#41ff6b1a] p-5 rounded-3xl gap-2  transform transition duration-300 hover:scale-105 hover:shadow-lg hover:shadow-green-200">
           <p id="coin-count">100</p>
           <img class="max-w-[30px] max-h-[30px]" src="./assets/coin.png" alt="">
         </div>
@@ -272,13 +272,10 @@
 
       </div>
 
-
-
-
       <!-- call history -->
       <div class="w-full lg:w-[450px]">
         <div class="bg-white mt-5 lg:mt-0 p-5 rounded-xl ">
-          <div class="flex items-center justify-between mb-5">
+          <div class="flex items-center justify-between ">
             <div class="flex items-center gap-2">
               <i class="fa-regular fa-clock"></i>
               <h1>Call History</h1>
@@ -292,6 +289,7 @@
           <!-- history list -->
           <div class="call-history">
             <!-- history items will be added here -->
+             
           </div>
         </div>
       </div>
